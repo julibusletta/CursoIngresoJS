@@ -1,18 +1,36 @@
 function Mostrar()
 {
+    var rta=true;
+	var num;
+	var max;
+	var min;
+	var bandera=true
 
-	var contador=0;
-	// declarar variables
-	
-	var respuesta='si';
+	while (rta==true)
+		{
+			num = prompt;
+			if(bandera)
+			{
+             max=num;
+			 min=num;
+			 bandera=false;
+			}
+			else	
+			if (num>max)
+			{
+				max=num;
+			}
+			if(num<min)
+			{
+				min=num;
+			}
+			rta=confirm;
+			}
 
-	while(respuesta!='no')
-	{
-		
 	
 	}
 
 
 
 
-}//FIN DE LA FUNCIÓN
+//FIN DE LA FUNCIÓN
